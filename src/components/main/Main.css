@@ -1,0 +1,24 @@
+.albums{
+    animation: flicker 0.5s ease-in-out infinite alternate;
+    margin-top: 1rem;    
+   
+}
+.cont{
+   margin: 2rem;
+}
+
+
+@keyframes flicker {
+    0%{
+        opacity: 0.5;
+        text-shadow: 2px 2px 10px blueviolet;
+        
+    }
+    100%{
+        opacity: 1;
+        text-shadow: 2px 2px 10px red;
+        transform: scale(1.1);      
+        
+    }
+    
+}

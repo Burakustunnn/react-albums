@@ -1,0 +1,39 @@
+
+.imgCard{
+    width: 18rem;
+    height: 450px;
+    object-fit: cover; 
+    filter: contrast(50%);
+    
+}
+
+.imgCard:hover{
+    filter: contrast(100%);
+    transition:all 0.8s ease-in-out;
+    transform: scale(1.5);
+    
+
+}
+.cards{
+    overflow: hidden;
+    border-radius: 25px;
+    
+    transform-origin:center;    
+    transform:perspective(800px) rotateY(25deg);
+    transition:0.5s; 
+
+    
+
+}
+
+.cards:hover{
+    transform:perspective(800px) rotateY(0deg);
+    /* -webkit-box-reflect:right -16rem ;  */
+    /* linear-gradient(transparent, transparent, #0004) */
+    opacity:1;
+}
+.divv{
+    overflow: hidden;
+    width: 18rem;
+    height: 450px;    
+}
